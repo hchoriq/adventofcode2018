@@ -1,0 +1,1 @@
+const day1 = (input) => input.split('\n').reduce((num, acc) => parseInt(acc) + parseInt(num), 0);
